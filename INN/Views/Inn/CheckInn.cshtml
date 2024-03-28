@@ -1,0 +1,23 @@
+@model INN.Models.InnViewModels.InnViewModel
+@section Style
+{
+     <link href="~/css/Inn/Inn.css" rel="stylesheet"/>
+}
+<div class="inn-block">
+    <h1 class="header">Свидетельство</h1>
+    <div class="data">
+        Настоящее свидетельство подтверждает,что @Model.SurName @Model.Name @Model.LastName
+    </div>
+    <div class="birthday">
+        Дата рождения:@Model.Birthday.Date
+    </div>
+    <div class="place-birthday">
+        Место рождения: @Model.PlaceBirthday
+    </div>
+    <div class="apply">
+        Поставлен на учет в соотвествии с налоговым кодексом 
+    </div>
+    <div class="inn">
+        ИНН:@Model.InnNumber
+    </div>
+</div>

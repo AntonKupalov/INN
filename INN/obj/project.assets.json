@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/antonkupalov/INN/INN/INN/INN.csproj",
+      "projectUniqueName": "/Users/antonkupalov/Documents/GitHub/INN/INN/INN/INN.csproj",
       "projectName": "INN",
-      "projectPath": "/Users/antonkupalov/INN/INN/INN/INN.csproj",
+      "projectPath": "/Users/antonkupalov/Documents/GitHub/INN/INN/INN/INN.csproj",
       "packagesPath": "/Users/antonkupalov/.nuget/packages/",
-      "outputPath": "/Users/antonkupalov/INN/INN/INN/obj/",
+      "outputPath": "/Users/antonkupalov/Documents/GitHub/INN/INN/INN/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/antonkupalov/.nuget/NuGet/NuGet.Config"

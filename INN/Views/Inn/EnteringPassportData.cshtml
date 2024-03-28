@@ -1,0 +1,40 @@
+@model INN.Models.InnViewModels.PassportDataViewModel
+
+@section Style
+{
+     <link href="~/css/Inn/PassportData.css" rel="stylesheet"/>
+}
+<div class="passport-data-block">
+    <form method="post">
+        <div class="input-data">
+            <div class="surname">
+                        Введите вашу фамилию:
+                        @Html.TextBoxFor(x => x.Surname, new { placeholder = "Фамилия" })
+                    </div>
+                    <div class="name">
+                        Введите ваше имя:
+                        @Html.TextBoxFor(x => x.Name, new { placeholder = "Имя" })
+                    </div>
+                    <div class="lastname">
+                        Введите ваше отчество:
+                        @Html.TextBoxFor(x => x.LastName, new { placeholder = "Отчество" })
+                    </div>
+                    <div class="input-birthday">
+                        Введите вашу дату рождения:
+                        @Html.TextBoxFor(x => x.Birthday, new { placeholder = "Дата рождения" })
+                    </div>
+                    <div class="input-place-birthday">
+                        Введите ваше место рождения:
+                        @Html.TextBoxFor(x => x.PlaceBirthday, new { placeholder = "Место рождения" })
+                    </div>
+                    <div class="city">
+                        Введите в каком городе выдан паспорт:
+                        @Html.TextBoxFor(x => x.City, new { placeholder = "Город" })
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Отправить данные"/>
+                    </div>
+        </div>
+        
+    </form>
+</div>

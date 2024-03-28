@@ -1,0 +1,26 @@
+.inn-block{
+    border: 2px solid;
+    border-radius: 5px;
+    margin-left: 360px;
+    margin-right: 360px;
+    height: 200px;
+}
+.header{
+    margin-left: 235px;
+}
+
+.data{
+    margin-left: 35px;
+}
+.birthday{
+    margin-left: 35px;
+}
+.place-birthday{
+    margin-left: 35px;
+}
+.apply{
+    margin-left: 35px;
+}
+.inn{
+    margin-left: 35px;
+}
